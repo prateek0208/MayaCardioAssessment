@@ -1,0 +1,3 @@
+# No external dependencies required
+# This pipeline uses only Python standard library modules:
+# sqlite3, json, zlib, urllib, gzip, decimal, socket, threading, http.server
