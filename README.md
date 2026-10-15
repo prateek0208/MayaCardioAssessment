@@ -3,7 +3,7 @@
 *A crash-safe, offline-capable biosignal ingestion, processing, and synchronization pipeline designed for Raspberry Pi 4 (ARM64) and free-tier cloud services.*
 
 ---
-
+Live DEMO LINK- https://mayacardioassessment-1.onrender.com/health
 ## 1. Project Overview
 
 This project implements a medical-grade data pipeline for continuous biosignal acquisition under harsh clinical environments:
