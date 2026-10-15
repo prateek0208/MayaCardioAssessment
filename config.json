@@ -1,0 +1,7 @@
+{
+  "cloud_url": "http://127.0.0.1:8000",
+  "api_token": "maya-cardio-assessment-token",
+  "mock_host": "127.0.0.1",
+  "mock_port": 7100,
+  "db_path": "pipeline.db"
+}

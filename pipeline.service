@@ -1,0 +1,21 @@
+[Unit]
+Description=Never Lose a Heartbeat Biosignal Pipeline
+After=network.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/MayaCardioAssessment
+ExecStart=/usr/bin/python3 /home/pi/MayaCardioAssessment/pipeline_app/cli.py start
+Restart=always
+RestartSec=2s
+
+# Section 1 & 2 Resource constraints for Raspberry Pi 4 environment
+CPUQuota=400%
+MemoryMax=2G
+
+# Section 4: Limit file descriptor loss
+LimitNOFILE=65536
+
+[Install]
+WantedBy=multi-user.target

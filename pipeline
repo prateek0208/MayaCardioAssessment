@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+import os
+import sys
+
+# Add pipeline_app to PYTHONPATH
+script_dir = os.path.dirname(os.path.abspath(__file__))
+pipeline_app_dir = os.path.join(script_dir, "pipeline_app")
+if pipeline_app_dir not in sys.path:
+    sys.path.insert(0, pipeline_app_dir)
+
+from cli import main
+
+if __name__ == "__main__":
+    main()

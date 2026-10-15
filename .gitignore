@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.db
+*.db-wal
+*.db-shm
+*.log
+.env
+cloud_data.db
+pipeline.db
